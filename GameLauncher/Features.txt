@@ -1,0 +1,12 @@
+(Mini Game Launcher)
+[Features]
+  (Drag and Drop Exes of Games/Programs or Shortcuts Directly onto Gui To add them.)
+  (Clicking the Game Icon Runs the Game/Program.)
+  (Right Clicking the Name on the Gui allows you to Rename incase you changed your mind from what you named it.)
+  (Right Clicking a blank space on the gui allows for the creation of a New Category that when opened will
+   open another instance of the launcher allowing you to add up to 15 programs/games per New Categories)
+  (15 Maximum Games/Programs at the moment.)
+  (Right Clicking the Icon Opens an Options Menu.)
+   [Options]
+     (Delete the Game/Program from the Gui.)
+     (Run the game with Additional Parameters.)
