@@ -66,7 +66,7 @@ Convert()
   SplitPath, SelectedFile, name, dir
   R := RemoveExt(name)
   RunWait %comspec% /c convert.exe "%dir%\%R%.%GT%" -auto-orient "%dir%\%R%.%GBo%",, HIDE
-  MsgBox % "Converted File " . R . GT . " -> " . R . "." . GBo
+  MsgBox % "Converted File " . R . "." . GT . " -> " . R . "." . GBo
  }
 }
 
@@ -277,7 +277,7 @@ GuiControl,, %A_GuiControl%, 1
 
 RemoveExt(name)
 {
- E := SubStr(name, -5)
+ E := SubStr(name, -4)
  If E = .webp
    ER := SubStr(name, 1, L := StrLen(name) -5)
  else
